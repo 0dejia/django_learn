@@ -20,4 +20,5 @@ from acc_reg import views
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
     url(r'^register/', views.register),
+    url(r'^login/', views.login)
 ]
