@@ -16,9 +16,10 @@ Including another URLconf
 from django.conf.urls import url
 from django.contrib import admin
 from acc_reg import views
-
+from shop import views as sv
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
     url(r'^register/', views.register),
-    url(r'^login/', views.login)
+    url(r'^login/', views.login),
+    url(r'^goodslist/', sv.showGoodsList),
 ]
