@@ -1,1 +1,6 @@
-{{ goods }}
+{% for single_good in goods%}
+	<p>name:{{single_good.name}}</p>
+	<p>price:{{single_good.price}}</p>
+	<p>desc:{{single_good.desc}}</p>
+	</br>
+{% endfor %}

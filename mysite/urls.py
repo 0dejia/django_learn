@@ -22,4 +22,5 @@ urlpatterns = [
     url(r'^register/', views.register),
     url(r'^login/', views.login),
     url(r'^goodslist/', sv.showGoodsList),
+    url(r'^goods/create/', sv.createGoods),
 ]
