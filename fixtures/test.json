@@ -1,0 +1,29 @@
+[
+	{
+		"model": "blog.article",
+		"pk": 1,
+		"fields": {
+			"title":"Mazar-e Sharif attack: Afghanistan mourns deadly Taliban assault",
+			"content_time": "2016-07-05 18:22:34",
+			"content": "Afghanistan is holding a day of national mourning after the Taliban attacked an army base, killing or wounding more than 100 soldiers.President Ashraf Ghani said the assault near the northern city of Mazar-e-Sharif had been contrary to all human values and Islamic teachings.Insurgents targeted those leaving Friday prayers at the base's mosque and others in a canteen, the army said.Some of the survivors suggested the attackers had had inside help.One of the injured soldiers said: \"When an attacker enters the base, why was he not challenged? There is not just one barrier or security gate, there are seven or eight.\""
+		}
+	},
+	{
+		"model": "blog.article",
+		"pk": 2,
+		"fields": {
+			"title":"Germany AfD: Right-wingers set to move further right",
+			"content_time": "2017-04-21 15:11:44",
+			"content": "The populist, anti-immigrant Alternative for Germany (AfD) has rejected a bid by its co-leader to move the party closer to the mainstream.Frauke Petry had wanted the AfD to seek coalition with other parties and reject extremist views but delegates in Cologne rejected her approach.She has announced she will not contest general elections this year and the party must choose a replacement.Outside the conference protesters clashed with police."
+		}
+	},
+	{
+		"model": "blog.article",
+		"pk": 3,
+		"fields": {
+			"title":"Ecuador fines media for not publishing a story",
+			"content_time": "2014-04-21 11:24:15",
+			"content": "Ecuador has fined seven media companies for not publishing a story that it deemed of public interest.The state's media watchdog said the press had a duty to cover a story about the supposed offshore dealings of opposition politician and recent presidential candidate Guillermo Lasso.The investigation was published in an Argentine newspaper in March.The watchdog and the media companies have accused each other of censorship. Appeals are under way.The ruling was made against newspapers El Comercio, La Hora, Expreso and El Universo, and television channels Televicentro, Teleamazonas and Ecuavisa.The watchdog, known as Supercom, has fined the companies $3,750 (£3,000), the equivalent of 10 journalists' basic salaries, it said.Supercom's superintendent Carlos Ochoa called the fines both a punishment and a motivation for improving journalistic practices.Pedro Valverde, a lawyer for El Universo newspaper, told the BBC he will be \"exhausting all administrative and judicial options to annul this absurd sanction\"."
+		}
+	}
+]
