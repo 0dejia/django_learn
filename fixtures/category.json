@@ -1,0 +1,58 @@
+[
+	{
+		"model": "blog.category",
+		"pk": 1,
+		"fields": {
+			"name": "胸"
+		}
+	},
+	{
+		"model": "blog.category",
+		"pk": 2,
+		"fields": {
+			"name": "背"
+		}
+	},
+	{
+		"model": "blog.category",
+		"pk": 3,
+		"fields": {
+			"name": "肩"
+		}
+	},
+	{
+		"model": "blog.category",
+		"pk": 4,
+		"fields": {
+			"name": "二/三头"
+		}
+	},
+	{
+		"model": "blog.category",
+		"pk": 5,
+		"fields": {
+			"name": "小臂"
+		}
+	},
+	{
+		"model": "blog.category",
+		"pk": 6,
+		"fields": {
+			"name": "腹部"
+		}
+	},
+	{
+		"model": "blog.category",
+		"pk": 7,
+		"fields": {
+			"name": "大腿"
+		}
+	},
+	{
+		"model": "blog.category",
+		"pk": 8,
+		"fields": {
+			"name": "小腿"
+		}
+	}
+]
