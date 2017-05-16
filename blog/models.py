@@ -18,3 +18,6 @@ class category(models.Model):
 class navigate(models.Model):
 	nav_name = models.CharField(max_length=40)
 	nav_href = models.CharField(max_length=40)
+
+	def __str__(self):
+		return self.nav_name

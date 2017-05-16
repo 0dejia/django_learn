@@ -6,4 +6,4 @@ from blog.models import category, navigate
 class CateAdmin(admin.ModelAdmin):
 	pass
 
-admin.site.register(category, CateAdmin)
+admin.site.register([category, navigate], CateAdmin)
