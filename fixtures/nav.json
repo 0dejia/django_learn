@@ -1,0 +1,34 @@
+[
+	{
+		"model": "blog.navigate",
+		"pk": 1,
+		"fields": {
+			"nav_name": "首页",
+			"nav_href": "/index"
+		}
+	},
+	{
+		"model": "blog.navigate",
+		"pk": 2,
+		"fields": {
+			"nav_name": "所有视频",
+			"nav_href": "/videos"
+		}
+	},
+	{
+		"model": "blog.navigate",
+		"pk": 3,
+		"fields": {
+			"nav_name": "所有文章",
+			"nav_href": "/articles"
+		}
+	},
+	{
+		"model": "blog.navigate",
+		"pk": 4,
+		"fields": {
+			"nav_name": "关于本站",
+			"nav_href": "/about_site"
+		}
+	}
+]

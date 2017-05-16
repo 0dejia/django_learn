@@ -11,3 +11,10 @@ class article(models.Model):
 class category(models.Model):
 	parent_node = models.IntegerField(default=0)
 	name = models.CharField(max_length=40)
+
+	def __str__(self):
+		return self.name
+
+class navigate(models.Model):
+	nav_name = models.CharField(max_length=40)
+	nav_href = models.CharField(max_length=40)
