@@ -8,6 +8,9 @@ class article(models.Model):
 	content_time = models.DateTimeField()
 	content = models.TextField()
 
+	def __str__(self):
+		return self.title
+
 class category(models.Model):
 	parent_node = models.IntegerField(default=0)
 	name = models.CharField(max_length=40)

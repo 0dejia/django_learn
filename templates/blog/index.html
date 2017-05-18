@@ -83,13 +83,13 @@
                 <hr>
                 <img class="img-responsive" src="http://placehold.it/900x300" alt="">
                 <hr>
-                <p>{{ article.content }}</p>
+                <p>{{ article.content|truncatechars:100 }}</p>
                 <a class="btn btn-primary" href="#">Read More <span class="glyphicon glyphicon-chevron-right"></span></a>
 
                 <hr>
                 {% endfor %}
                 <!-- Second Blog Post -->
-                <h2>
+                <!-- <h2>
                     <a href="#">Blog Post Title</a>
                 </h2>
                 <p class="lead">
@@ -104,7 +104,7 @@
 
                 <hr>
 
-                <!-- Third Blog Post -->
+                Third Blog Post
                 <h2>
                     <a href="#">Blog Post Title</a>
                 </h2>
@@ -119,7 +119,7 @@
                 <a class="btn btn-primary" href="#">Read More <span class="glyphicon glyphicon-chevron-right"></span></a>
 
                 <hr>
-
+ -->
                 <!-- Pager -->
                 <ul class="pager">
                     <li class="previous">
