@@ -17,5 +17,6 @@ from django.conf.urls import url
 from blog import views
 
 urlpatterns = [
+	url(r'^page/(?P<page>[0-9]+)/', views.index, name="pg"),
 	url(r'^$', views.index),
 ]
